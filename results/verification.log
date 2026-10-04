@@ -1,0 +1,9 @@
+Frequency FCW=00418937 target=100000.000000 measured=100000.000000 Hz crossings=20
+Frequency FCW=0147ae14 target=500000.000000 measured=500000.000000 Hz crossings=100
+Frequency FCW=028f5c29 target=1000000.000000 measured=1000000.000000 Hz crossings=200
+Frequency FCW=051eb852 target=2000000.000000 measured=2000000.000000 Hz crossings=400
+Frequency FCW=0ccccccd target=5000000.000000 measured=5000000.000000 Hz crossings=1000
+Frequency FCW=1999999a target=10000000.000000 measured=10000000.000000 Hz crossings=2000
+PASS baseline cycles=214735 accepted=212199 checked=212082 discarded=114 pending=3 FCW_commands=5023 phase_commands=5025 resets=44 stalls=2492
+PASS advanced checked=212082: independent control, busy, circular slew and all output cycles
+tb/dds_tb.v:104: $finish called at 2147350000 (1ps)

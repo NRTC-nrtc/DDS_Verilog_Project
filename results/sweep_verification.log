@@ -1,0 +1,26 @@
+Frequency FCW=0000a7c6 target=1000.000000 measured=1000.000000 Hz crossings=5
+Frequency FCW=00068db9 target=10000.000000 measured=10000.000000 Hz crossings=2
+Frequency FCW=00418937 target=100000.000000 measured=100000.000000 Hz crossings=20
+Frequency FCW=0147ae14 target=500000.000000 measured=500000.000000 Hz crossings=100
+Frequency FCW=028f5c29 target=1000000.000000 measured=1000000.000000 Hz crossings=200
+Frequency FCW=051eb852 target=2000000.000000 measured=2000000.000000 Hz crossings=400
+Frequency FCW=0ccccccd target=5000000.000000 measured=5000000.000000 Hz crossings=1000
+Frequency FCW=1999999a target=10000000.000000 measured=10000000.000000 Hz crossings=2000
+SWEEP PASS: 1 kHz -> 10 MHz; FCW step=4295 (~100.00076 Hz/edge); edges=99990
+PHASE mode=4 degrees=0 target=00000000 baseline=00000000 advanced=00000000
+PHASE mode=4 degrees=45 target=20000000 baseline=20000000 advanced=20000000
+PHASE mode=4 degrees=90 target=40000000 baseline=40000000 advanced=40000000
+PHASE mode=4 degrees=180 target=80000000 baseline=80000000 advanced=80000000
+PHASE mode=4 degrees=270 target=c0000000 baseline=c0000000 advanced=c0000000
+PHASE mode=4 degrees=350 target=f8e38e39 baseline=f8e38e39 advanced=f8e38e39
+PHASE mode=4 degrees=10 target=071c71c7 baseline=071c71c7 advanced=071c71c7
+PHASE mode=5 degrees=0 target=00000000 baseline=00000000 advanced=00000000
+PHASE mode=5 degrees=45 target=20000000 baseline=20000000 advanced=20000000
+PHASE mode=5 degrees=90 target=40000000 baseline=40000000 advanced=40000000
+PHASE mode=5 degrees=180 target=80000000 baseline=80000000 advanced=80000000
+PHASE mode=5 degrees=270 target=c0000000 baseline=c0000000 advanced=c0000000
+PHASE mode=5 degrees=350 target=f8e38e39 baseline=f8e38e39 advanced=f8e38e39
+PHASE mode=5 degrees=10 target=071c71c7 baseline=071c71c7 advanced=071c71c7
+PASS baseline cycles=1007146 accepted=1004610 checked=1004493 discarded=114 pending=3 FCW_commands=5047 phase_commands=5049 resets=44 stalls=2492
+PASS advanced checked=1004493: independent control, busy, circular slew and all output cycles
+tb/dds_tb.v:166: $finish called at 10071460000 (1ps)

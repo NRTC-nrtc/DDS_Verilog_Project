@@ -1,0 +1,16 @@
+{
+  "sine": {
+    "samples": 65536,
+    "frequency_hz": 990295.41015625,
+    "sfdr_dbc": 83.37588481069709,
+    "largest_spur_hz": 24009704.58984375,
+    "peak": 32767.0
+  },
+  "cosine": {
+    "samples": 65536,
+    "frequency_hz": 990295.41015625,
+    "sfdr_dbc": 83.37588481069709,
+    "largest_spur_hz": 24009704.58984375,
+    "peak": 32767.0
+  }
+}
